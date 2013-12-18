@@ -8,9 +8,6 @@ $(call inherit-product, device/lge/hammerhead/full_hammerhead.mk)
 $(call inherit-product, vendor/mahdi/configs/common.mk)
 $(call inherit-product, vendor/mahdi/configs/common_full_phone.mk)
 
-# Inherit GSM files.
-$(call inherit-product, vendor/mahdi/configs/gsm.mk)
-
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := hammerhead
 PRODUCT_NAME := mahdi_hammerhead
