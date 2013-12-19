@@ -233,6 +233,10 @@ on post-fs-data
     restorecon /sys/devices/platform/kcal_ctrl.0/kcal
     restorecon /sys/devices/platform/kcal_ctrl.0/kcal_ctrl
 
+    # Torch
+    chown system camera /sys/class/leds/led:flash_torch/brightness
+    chmod 0640 /sys/class/leds/led:flash_torch/brightness
+
 on charger
     # Booting modem
     wait /dev/block/platform/msm_sdcc.1/by-name/modem
