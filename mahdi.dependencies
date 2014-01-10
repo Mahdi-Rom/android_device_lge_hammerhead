@@ -18,5 +18,35 @@
    "repository":  "Mahdi-Rom/android_kernel_lge_hammerhead",
    "target_path": "kernel/lge/hammerhead",
    "revision":    "kk-4.4"
+ },
+ {
+   "repository":  "Mahdi-Rom/android_frameworks_av",
+   "target_path": "frameworks/av",
+   "branch":      "kk-4.4-aosp"
+ },
+ {
+   "repository":  "Mahdi-Rom/android_frameworks_native",
+   "target_path": "frameworks/native",
+   "branch":      "kk-4.4-aosp"
+ },
+ {
+   "repository":  "Mahdi-Rom/android_hardware_libhardware",
+   "target_path": "hardware/libhardware",
+   "branch":      "kk-4.4-aosp"
+ },
+ {
+   "repository":  "Mahdi-Rom/android_hardware_libhardware_legacy",
+   "target_path": "hardware/libhardware_legacy",
+   "branch":      "kk-4.4-aosp"
+ },
+ {
+   "repository":  "Mahdi-Rom/android_packages_apps_Camera2",
+   "target_path": "packages/apps/Camera2",
+   "branch":      "kk-4.4-aosp"
+ },
+ {
+   "repository":  "Mahdi-Rom/android_packages_apps_Gallery2",
+   "target_path": "packages/apps/Gallery2",
+   "branch":      "kk-4.4-aosp"
  }
 ]
